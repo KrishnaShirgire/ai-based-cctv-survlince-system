@@ -1,0 +1,53 @@
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# AI models and weights
+models/
+**/models/
+*.onnx
+*.pt
+*.pth
+
+# Private face data and generated alerts
+data/face_database.npz
+data/persons/
+data/alerts/
+data/missing_persons.db
+**/data/face_database.npz
+**/data/persons/
+**/data/alerts/
+**/data/missing_persons.db
+
+# Node.js dependencies and build output
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Logs
+*.log
